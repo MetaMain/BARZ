@@ -24,7 +24,7 @@ The results reported in the main paper were run in 2018-2020 using TensorFlow 1.
    <li>The PyTorch ResNet models are trained with different hyperparameters and different dataset augmentation techniques as compared to the ResNet models in TensorFlow/Keras.</li>
 </ol>
 
-**For comparisons and follow up work, we acknowledge the legitimacy of using the PyTorch GitHub code for reporting future BARZ related results.**
+***For comparisons and follow up work, we acknowledge the legitimacy of using the PyTorch GitHub code for reporting future BARZ related results.***
 
 # Credit
 
