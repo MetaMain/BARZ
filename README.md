@@ -35,6 +35,7 @@ Our code makes use of some existing codes which we credit here. Specifically:
 <ul>
 <li>The PyTorch version of the Mixed/Adaptive Black-Box attack is based on the TensorFlow Cleverhan's implementation which can be found here: https://github.com/cleverhans-lab/cleverhans.</li>
 </ul>
+
 # Contact 
 
 For questions or concerns please contact: kaleel.mahmood@uconn.edu 
