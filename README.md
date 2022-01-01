@@ -6,7 +6,7 @@ Code corresponding to the Barrier Zone (BARZ) defense paper for the CIFAR-10 dat
 <ol>
   <li>Install the packages listed in the Software Installation Section (see below).</li>
   <li>Download the models from the Google Drive link listed in the PyTorch BARZ Models Section.</li>
-  <li>Move the Models folder into the directory ".\BarrierZoneTrainer\BarrierZoneTrainer"</li>
+  <li>Set the "modelsDir" variable on line 10 in "BarrierZoneTrainer.py" to the directory where you saved the models e.g. modelDir = "C://Users//Downloads//BARZ-8 PyTorch Models//" </li>
   <li>Open the BarrierZoneTrainer.sln file in the Python IDE of your choice. Choose one of the attack or training lines and uncomment it. Run the main.</li>
 </ol>
 
