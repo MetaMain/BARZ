@@ -1,11 +1,29 @@
 # BARZ: Barrier Zones for Adversarial Example Defense
 Code corresponding to the Barrier Zone (BARZ) defense paper for the CIFAR-10 dataset. We provide a PyTorch version of the code and the trained models in both PyTorch and TensorFlow. 
 
-# PyTorch Implementation of BARZ
+# Step by Step Guide
 
+<ol>
+  <li>Install the packages listed in the Software Installation Section (see below).</li>
+  <li>Download the models from the Google Drive link listed in the PyTorch BARZ Models Section.</li>
+  <li>Move the Models folder into the directory ".\BarrierZoneTrainer\BarrierZoneTrainer"</li>
+  <li>Open the BarrierZoneTrainer.sln file in the Python IDE of your choice. Choose one of the attack or training lines and uncomment it. Run the main.</li>
+</ol>
 
+# Software Installation 
 
-# Tensorflow Implementation of BARZ
+We use the following software packages: 
+<ul>
+  <li>pytorch==1.7.1</li>
+  <li>torchvision==0.8.2</li>
+  <li>numpy==1.19.2</li>
+</ul>
+
+# PyTorch BARZ Models
+
+The trained PyTorch version of the BARZ models are available for download [here](https://drive.google.com/file/d/1LHxYEjuNPzrvm62hL_o84VMPXA_6stXQ/view?usp=sharing).
+
+# Tensorflow BARZ Models
 
 The original BARZ models for CIFAR-10 in TensorFlow are available for download [here](https://drive.google.com/file/d/18N686ZqgX2oopOrvjcPoeSOLq2o9FTIJ/view?usp=sharing).
 While we no longer support TensorFlow implementation, the models can be loaded in TensorFlow 1.X using the following command:
