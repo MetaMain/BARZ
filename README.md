@@ -48,7 +48,7 @@ The results reported in the main paper were run in 2018-2020 using TensorFlow 1.
 
 Our code makes use of some existing codes which we credit here. Specifically: 
 <ul>
-<li>The original PyTorch ResNet code from which the BARZ code is built on is written by Yerlan Idelbayev can be found here: https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py</li>
+<li>The original PyTorch ResNet code from which the BARZ code is built on is written by Yerlan Idelbayev and can be found here: https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py</li>
 </ul>
 <ul>
 <li>The PyTorch version of the Mixed/Adaptive Black-Box attack is based on the TensorFlow Cleverhan's implementation which can be found here: https://github.com/cleverhans-lab/cleverhans.</li>
