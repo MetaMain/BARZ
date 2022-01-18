@@ -1,5 +1,7 @@
 # BARZ: Barrier Zones for Adversarial Example Defense
-Code corresponding to the Barrier Zone (BARZ) defense paper for the CIFAR-10 dataset. We provide a PyTorch version of the code and the trained models in both PyTorch and TensorFlow. 
+Code corresponding to the Barrier Zone (BARZ) defense paper: https://ieeexplore.ieee.org/document/9663375
+
+In this repository we give the BARZ code and models for the CIFAR-10 dataset. We provide a PyTorch version of the code and the trained models in both PyTorch and TensorFlow. 
 
 # Step by Step Guide
 
